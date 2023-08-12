@@ -1,0 +1,80 @@
+
+body{
+    background-image:url("https://wallpaperaccess.com/full/5651992.png");
+    width:1200px;
+    padding-inline:20px;
+}
+.para{
+    padding-left:850px;
+    margin-top:-400px ;
+    
+}
+.image{
+    padding-left: 15px;
+}
+.photo{
+    position:relative;
+    padding-left:50px;
+    margin-top:-495px ;
+    color:white; 
+}
+.middle{
+    position:absolute;
+    padding-left:50px;
+    margin-top:px ;
+    color:white; 
+}
+.portfo-first{
+    margin-left: 20px;
+}
+.Mid{
+    padding-left:50px;
+    margin-top:200px ;
+    color:white; 
+}
+.project{
+    padding-left:900px;
+    margin-top:-350px ;
+    color:white;  
+}
+.nav-link{
+    color:white !important;
+}
+
+.nav-link:hover{
+    color:blue !important;
+}
+.form
+{
+    color:white;
+    margin-top: -450px;
+    padding-left:300px;
+}
+.para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    animation:myAnimation 3s ease-in 2s  2 alternate;
+    transition:.8s;
+}
+@keyframes myAnimation{
+0%{letter-spacing:0.1;
+}
+50%{text-shadow:2px 2px 2px black;}
+100%{letter-spacing:0.6em ;}
+}
+.glass{
+   
+    color:white;
+}
+
+.mb-3.success input {
+    border-color: #2ecc71;
+  }
+  .mb-3.error input {
+    border-color: #e74c3c;
+  }
+  .mb-3.error span {
+    color: #e74c3c;
+    visibility: visible;
+  }
